@@ -8,3 +8,18 @@ Result: #ore python progra##ing please
 
 '''
 
+# Get sentence from user:
+
+sentence = input("Please enter a sentence: ")
+
+# Get symbol from user:
+
+char = input("Please enter a symbol: ")
+
+# Get first letter of sentence
+
+first = sentence[0]
+
+# Replace all occurences of the first letter with the symbol
+
+print(sentence.replace(first, char))
