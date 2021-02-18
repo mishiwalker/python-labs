@@ -7,3 +7,10 @@ The output of your calculation should therefore look like this:
 
 The sum is: 5050
 '''
+
+num1 = int(input("Please give me the first number: "))
+num2 = int(input("Please give me the second number: "))
+num3 = num2 + 1
+num4 = sum(x for x in range(num1, num3))
+
+print(num4)

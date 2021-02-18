@@ -8,3 +8,15 @@ Use a loop to print the following table to the console:
  40 41 42 43 44 45 46 47 48 49
 
 '''
+start = 0
+end = 49
+first = (9)
+second = (19)
+third = (29)
+fourth = (39)
+
+for x in range(start, end+1):
+    if ((x == first) or (x == second) or (x == third) or (x == fourth)):
+        print(x, sep=' ',)
+    else:
+        print(x, end=' ')
