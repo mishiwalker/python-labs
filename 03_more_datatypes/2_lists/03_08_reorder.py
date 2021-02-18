@@ -7,3 +7,15 @@ Example input:  1,2,3,4,5,6,7,8,9,10
 Example output: 2,4,6,8,10,9,7,5,3,1
 
 '''
+
+x = [int(x) for x in input("Enter 10 numbers: ").split()]
+print(x[1])
+print(x[3])
+print(x[5])
+print(x[7])
+print(x[9])
+print(x[8])
+print(x[6])
+print(x[4])
+print(x[2])
+print(x[0])

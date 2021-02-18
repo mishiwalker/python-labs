@@ -10,3 +10,11 @@ NOTE: Check out the Python docs and see whether you can come up with a solution,
       Feel free to discuss any questions you have with your mentor and on the forum!
 
 '''
+
+def z(val):
+    return val[1]
+input_dict = {"item1": 5, "item2": 6, "item3": 1}
+input_list = [(x, y) for x, y in input_dict.items()]
+input_list.sort(key = z)
+
+print(input_list)
